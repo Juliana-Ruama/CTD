@@ -1,62 +1,63 @@
-// 1) 30
 
-// 2) 20
+function polegada_cm(x){
+   console.log(x * 2.54)
+} 
 
-// 3) 
-
-// 1) 30
-
-// 2) 20
-
-// 3)a)
-//function polegada_cm(x){
-   //return x * 2.54
-} //
+polegada_cm(50);
 
 
 //b)
 function URL(x){
-   return "http://www./%22+x+%22.com.br"
+   console.log( "http://www."+x+".com.br" )
 } //
+
+URL("Juliana")
 
 // c)
 function exclamacao(x){
-    return x+"!"
+    console.log (x+"!")
 } //
 
+exclamacao("oi")
+
+
 // d) 
-function human-to-dog(x) {
-    return x * 7
+function human_to_dog(x) {
+    console.log (x * 7)
 } //
+
+human_to_dog(4)
 
 // e)
 function salario(x){
-    return x / 160
+    console.log (x / 160)
 }// 
+
+salario(1000)
 
 // f) 
 function IMC(peso, altura) {
-    return peso / ((altura * altura)/100)
-} //
-//console.log(80, 170)
-
-//acho que não rolou aqui não
-
-//g)
-
-//function a (x,y){
-    console.log(x)
-    return x * 2
-    console.log(x)
-    return x / 2
-}// 
-
-//console.log(a(10) );
-
-//function polegada_cm(x){
-    //return x * 2.54
+    console.log (peso / (altura^2))
 } //
 
-//console.log (polegada_cm (25) );
+IMC(65, 1.75)
 
 
+function CONVERTER_PARA_MAIUSCULO(texto) {
+console.log (texto.toUpperCase())
+
+}
+CONVERTER_PARA_MAIUSCULO("teste")
+
+function TIPO_VARIAVEL(texto){
+console.log (typeof(texto))
+
+}
+
+TIPO_VARIAVEL("A")
+
+function CALCULO_CIRCUNFERENCIA (raio){
+    console.log ((2*Math.PI)*raio)
+}
+
+CALCULO_CIRCUNFERENCIA (2)
