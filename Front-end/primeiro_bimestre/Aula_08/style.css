@@ -1,0 +1,23 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    boxsizing : border-box;
+}
+
+.saquere {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    margin-bottom: 12px;
+}
+
+.first-square{
+    background-color: slateblue;
+}
+
+.secund-square{
+    background-color: tomato;
+    position: relative;
+    margin-left: 200px;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+article{ 
+ 
+    background-image: url('http://contratempo.info/wp-content/uploads/2017/01/Jorel-10.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+h1{
+
+    font-family: 'Roboto' ;
+    text-align: center;
+}
+
+p{
+    background-color: red;
+}
+
