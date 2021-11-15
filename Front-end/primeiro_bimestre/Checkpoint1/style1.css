@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+    body{
+    height: 70px;
+    background-image: url(/Front-end/primeiro_bimestre/Checkpoint1/Caruaru.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.main-header{
+    background-color: rgb(162, 162, 209);
+    padding: 15px;
+    margin-top: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&family=Roboto:wght@500&display=swap');
+
+#resumo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgb(204, 191, 236);
+}
+
+div{
+    margin-top: 20px;
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
+    
+}
+
+.main-header2{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.curiosidades{
+    text-align: center;
+    
+}
+
+#rodapé {
+  position: relative;
+  margin-left: 40px;
+  display: flex;
+  margin-left: 45%;
+}
+
+.iconea {
+  height: 70x;
+  width: 70px;
+}
+
+.iconeb {
+  height: 70x;
+  width: 70px;
+}
+
+
+
+
+   
+
