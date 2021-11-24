@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    
+    <main>
+
+        <form>
+
+            <h1>Cadastro de Usuário</h1>
+
+            <fieldset>
+
+                <div>
+
+                    <legend>Dados pessoais</legend>
+
+                    <label for="usename">Nome completo</label>
+                    <input type="text" name="usename" id ="username" placeholder="Insira o seu nome">
+        
+                    </div>
+        
+                    <div>
+        
+                        <label for="bathDate">Data de nascimento</label>
+                        <input type="date" name="bathDate" id= "bathDate">
+        
+                    </div>
+        
+                    <div>
+        
+                    <label for="UserEmail">E-mail</label>
+                    <input type="email" name="UserEmail" id="UserEmail"
+        
+                    </div>
+        
+                    <div>
+        
+                    <label for="">CPF</label>
+                    <input type="text" name="userPassword" id="userPassword"
+        
+                    </div>
+
+                    <div>
+
+                    <label for="">Endereço</label>
+                    <input type="text" name="userEndereço" id="userEndereço">
+
+                    </div>
+        
+                    <div>
+        
+                    <label for="">Observações</label>
+                    <textarea name="userDescription" id="userDescription"></textarea>
+                
+                    </div>
+
+            </fieldset>
+        
+        <fieldset>
+            
+            <div>
+
+                <label for="userPatisserie">Tipos de doces</label>
+                <select name="userPlan" id="userPlan">
+                    <option volue="1">Bolo</option>
+                    <option volue="2">Cheseecake</option>
+                    <option volue="3">Pudim</option>
+                </select>
+                
+            </div>
+
+            <div>
+
+                <label for="userporção">Porção</label>
+                <select name="userPlan" id="userPlan">
+                    <option volue="1">Fatia</option>
+                    <option volue="2">1kg</option>
+                    <option volue="3">2kg</option>
+                </select>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <div>
+                <legend>Pagamento</legend>
+
+                <input type="radio" name = "Payment" id ="credit" checked>
+                <label for="credit">Crédito</label>
+                
+                <input type="radio" name="Payment" id="debit">
+                <label for="debit">Débito</label>
+                
+                <input type="radio" name="Payment" id="bill">
+                <label for="bill">Boleto</label>
+                
+            </div>
+
+            <div>
+
+                <label for="userPlan">Plano</label>
+                <select name="userPlan" id="userPlan">
+                    <option volue="1">Básico</option>
+                    <option volue="2">Médio</option>
+                    <option volue="3">Premium</option>
+                </select>
+    
+            </div>
+
+            <div>
+                <h1>Entrega</h1>
+
+                <input type="radio" name="tax" id="empresaX" checked>
+                <label for="empresaX">Empresa X</label>
+
+                <input type="radio" name="tax" id="empresaY">
+                <label for="empresaY">Empresa Y</label>
+
+                <input type="radio" name="tax" id="empresaZ">
+                <label for="empresaZ">Empresa Z</label>
+            </div>
+
+            <div>
+                <label for="scheduleDelivery">Agendar entrega</label>
+                <input type="date" name="scheduleDelivery" id="schudeleDelivery" min="2021-11-16" max="2021-11-16">
+
+            </div>
+
+
+        </fieldset>
+           
+
+            <div>
+
+                <h1>Recomendados</h1>
+
+                <input type="checkbox" name="recommended" id="firstProduct">
+                <label for="firstProduct">Carregador</label>
+
+                <input type="checkbox" name="recommended" id="secondProduct">
+                <label for="secondProduct">Fone</label>
+
+            </div>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
