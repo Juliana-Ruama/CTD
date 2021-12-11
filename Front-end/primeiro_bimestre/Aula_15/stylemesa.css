@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    grid-template-columns: 200px 1fr;
+}
+
+header{
+    background-color: gray;
+}
