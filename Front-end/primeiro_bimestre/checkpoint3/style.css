@@ -1,83 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:wght@100;200;300;400&family=Roboto:wght@300&display=swap');
- 
-body {
-  font-family: 'Roboto Mono', monospace;;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html {
+html{
   scroll-behavior: smooth;
 }
 
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  background-color: rgba(255, 65, 65, 0.8);
-  padding: 18px;
-  font-size: 24px;
-  position: fixed;
-}
-
-
-.main-menu {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  width: 100%;
-}
-
-.main-menu a {
-  color: white;
-  text-decoration: none;
-  transition: 0.5s ease-in-out;
-}
-
-.main-menu a:hover{
-
-  color:rgb(0, 0, 0)
-
-
-}
-.main-header button {
-  font-size: 24px;
-  color: white;
-  background-color: transparent;
-  border: 1px solid white;
-  padding: 12px 24px;
-  border-radius: 24px;
-  height: fit-content;
+header button{
+  margin-right: 30px;
 }
 
 .banner{
-  width: 100%;
-  height: 100vh;
-}
-img {
-  width: 100%;
-  height: auto;
-}
-
-
-
-section img {
-
-  margin-top: 30px;
- 
-  width: 400px;
+  background-image: url('images/banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   height: 600px;
 }
 
-section button {
-
-  border-radius: 8px;
-  background-color: rgba(247, 126, 126, 0.8);
-  color: white;
-  transition: 0.2s ease-in-out;
-  
+div a img{
+  width: 80px;
+  border-radius: 20px;
 }
 
-section button:hover{
+#catalogo{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
 
-  transform: scale(1.05);
+.card img {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+}
+
+header{
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+header li{
+  font-size: 20px;
+}
+header li:hover{
+  font-weight: bold;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+  padding: 30px;
+  background-color: rgb(23, 53, 174);
+  color: white;
+  font-size: 18px;
+}
+
+footer div{
+  text-align: center;
+}
+
+footer div svg{
+  width: 25px;
+  color: white;
+}
+
+footer div hr{
+  margin: 4px 1px;
+  display: block;
+}
+
+.h1-filme{
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2{
+  margin: 30px 0px;
+}
+
+.banner-shrek2{
+  background-image: url('https://1.bp.blogspot.com/-JjFYvCgjp2A/X1fULOsy4LI/AAAAAAAAJJk/6rafo_-k3f4oPF2-dPtVZNVfwnF4U-EugCLcBGAsYHQ/s1600/IMG_20200519_143217.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+.banner-forrest{
+  background-image: url('https://images5.alphacoders.com/483/thumb-1920-483981.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+.banner-aranha{
+  background-image: url('https://images.hdqwalls.com/wallpapers/marvel-spider-man-no-way-home-4k-ua.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+.banner-eternos{
+  background-image: url('https://i.redd.it/tzghpq9y38y71.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+
+.banner-pantera{
+  background-image: url('https://images4.alphacoders.com/900/thumb-1920-900361.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+
+.banner-estranho{
+  background-image: url('https://i.pinimg.com/originals/66/f4/64/66f46475980b8aea6647c310ce6999e5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+.banner-guardioes{
+  background-image: url('https://wallpapercave.com/wp/wp1814934.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+.banner-ferro{
+  background-image: url('https://images8.alphacoders.com/378/thumb-1920-378546.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+
+iframe{
+  width: 100%;
+  height: 500px
+}
+
+@media (max-width: 767px){
+  .banner{
+      display: none;
+  }
+
+  #catalogo{
+      margin-top: 100px;
+  }
+
+  .main-header{
+      margin-top: -100px;
+  }
+
+  .container{
+      text-align: center;
+  }
+
+  footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+  }
+
+
 }
