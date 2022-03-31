@@ -14,5 +14,7 @@ function dividir (valorA, valorB) {
 }
 
 let result = dividir(a,b);
-alert(`O resultado é: ${result}`); 
+alert(`O resultado é: ${result}`);
+//teste
+
 }
