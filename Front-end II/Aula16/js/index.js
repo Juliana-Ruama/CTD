@@ -81,7 +81,7 @@ consultandoBaseDeDados
         return renderizarDadosUsuario(resposta.resultado[0])
 
     }).catch((err) => {
-        console.log(err);
+        console.log(Error);
     });
 
 function renderizarDadosUsuario(dados) {
